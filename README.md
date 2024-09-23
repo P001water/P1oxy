@@ -7,18 +7,20 @@
 ```
 usage:
 1. crawl available from fofa
-        .\P1milk.exe crawl -e p1sec@163.com -t fofaToken
+        .\P1oxy.exe crawl -e p1sec@163.com -t fofaToken
 
 2. check available socks5 address
-        .\P1milk.exe check -f .\addr.txt
+        .\P1oxy.exe check -f .\addr.txt
 
 3. start Proxy
-        .\P1milk.exe startproxy -s 192.168.110.1:9090
-        .\P1milk.exe startproxy -f .\addr.txt
+        .\P1oxy.exe startproxy -s 192.168.110.1:9090
+        .\P1oxy.exe startproxy -f .\addr.txt
    change proxy mode:
         1. simple mode, use simple proxy
         2. round mode, Switch proxy address based on round time
+                .\P1oxy.exe startproxy -f .\addr.txt -m 2
         3. One socks address per request
+                .\P1oxy.exe startproxy -f .\addr.txt -m 3
 
 Note:
 工具本身不具备匿名功能，建议搭配透明代理使用
