@@ -2,6 +2,8 @@
 
 都说百度网盘太麻烦，还是放这儿吧
 
+
+
 ```
 usage:
 1. crawl available from fofa
@@ -17,5 +19,8 @@ usage:
         1. simple mode, use simple proxy
         2. round mode, Switch proxy address based on round time
         3. One socks address per request
+
+Note:
+工具本身不具备匿名功能，建议搭配透明代理使用
 ```
 
